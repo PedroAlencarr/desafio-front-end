@@ -1,0 +1,91 @@
+.cabeçalho {
+    background-image: url("https://unasus.ufsc.br/alcooleoutrasdrogas/wp-content/themes/ead/images/fundoheader.png");
+    max-width: 100%;
+    width: auto;
+}
+
+.photo {
+    margin-left: 50px;
+}
+
+body {
+    font-family: 'Roboto';
+    margin: auto;
+}
+
+.topo {
+    font-family: 'Dosis';
+    font-size: 36px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-family: 'Dosis';
+    max-width: 95%;
+    margin: auto;;
+}
+
+section {
+    max-width: 95%;
+    margin: auto;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: 'Dosis';
+    margin-top: 20px;
+    margin-left: 32px;
+}
+
+a {
+    font-style: italic;
+}
+
+.lead {
+    font-weight: bold;
+}
+
+.content {
+    background-color: #acd7f3;
+    border-radius: 2px;
+    
+
+}
+
+.photo2 {
+    margin-top: .25rem;
+}
+
+.d-block {
+    opacity: 1;
+    max-width: 95%;
+    max-height: 300px;
+    margin: auto;
+}
+
+.texto_slide {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.texto_slide2 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.topic {
+    max-width: 95%;
+    margin: auto;
+}
+
+h3 {
+    font-family: 'Dosis';
+    margin-top: 20px;
+    margin-left: 32px;
+}

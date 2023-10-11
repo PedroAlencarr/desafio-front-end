@@ -1,91 +1,123 @@
-.cabeçalho {
-    background-image: url("https://unasus.ufsc.br/alcooleoutrasdrogas/wp-content/themes/ead/images/fundoheader.png");
-    max-width: 100%;
-    width: auto;
-}
-
-.photo {
-    margin-left: 50px;
-}
-
+/* corpo */
 body {
-    font-family: 'Roboto';
-    margin: auto;
-}
-
-.topo {
-    font-family: 'Dosis';
-    font-size: 36px;
-    color: white;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-
-h1 {
-    font-family: 'Dosis';
-    max-width: 95%;
-    margin: auto;;
-}
-
-section {
-    max-width: 95%;
-    margin: auto;
+    font-family: "Roboto", sans-serif;
+    color: #1c1c1c;
     font-size: 16px;
+    background-color: #C2DDE9;
 }
 
-h2 {
-    font-family: 'Dosis';
-    margin-top: 20px;
-    margin-left: 32px;
+h1, h2 {
+    font-family: "Dosis", sans-serif;
+    color: #000000
 }
 
-a {
-    font-style: italic;
-}
-
-.lead {
-    font-weight: bold;
-}
-
-.content {
-    background-color: #acd7f3;
-    border-radius: 2px;
+/* navegação */
+nav {
+    background-image: url("https://unasus.ufsc.br/alcooleoutrasdrogas/wp-content/themes/ead/images/fundoheader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    font-weight: 800 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     
-
 }
 
-.photo2 {
-    margin-top: .25rem;
+nav a img {
+    width: 194px;
+    padding: 2px;
 }
 
-.d-block {
-    opacity: 1;
-    max-width: 95%;
-    max-height: 300px;
-    margin: auto;
-}
 
-.texto_slide {
-    color: rgb(255, 255, 255);
-    font-weight: bold;
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.texto_slide2 {
+header h1, h2 {
+    padding: 20px;
+}
+
+
+.introdução {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.introdução p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+table {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+
+.img {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desenvolvimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.desenvolvimento p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#desenvolvimento {
+    padding-top: 20px
+}
+
+.destaque {
+    font-weight: bold;
+}
+
+.slide {
     color: rgb(255, 255, 255);
     font-weight: bold;
-    text-align:center;
-    background-color: rgba(0, 0, 0, 0.5)
+    font-size: 1em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 2.5em;
+    width: 100%;
+    max-width: 1000px;
 }
 
-.topic {
-    max-width: 95%;
-    margin: auto;
+.encerramento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-h3 {
-    font-family: 'Dosis';
-    margin-top: 20px;
-    margin-left: 32px;
+.encerramento p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+

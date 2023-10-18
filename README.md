@@ -1,1 +1,1 @@
-Esse projeto trata-se de um desafio em front-end para ingressar em um estágio.
+Esse projeto trata-se de um desafio em front-end.
